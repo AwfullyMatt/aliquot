@@ -36,16 +36,11 @@ etc...
 
 ## Sequence Generation 🪄
 For each number, the program:
-
-    Calculates sum of proper divisors
-
-    Builds sequence until it detects:
-
-        Repeating pattern (cycle)
-
-        Termination at zero
-
-        1000-step limit
+- Calculates sum of proper divisors
+- Builds sequence until it detects:
+- Repeating pattern (cycle)
+- Termination at zero
+- 1000-step limit
 
 ## Classification Types
 | Type	   | Pattern	                | Example               |
