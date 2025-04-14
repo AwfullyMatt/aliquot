@@ -42,7 +42,7 @@ For each number, the program:
   - Termination at zero
   - 1000-step limit
 
-## Classification Types
+## Classification Types 📊
 | Type	   | Pattern	                | Example               |
 | :------: | :----------------------: | :-------------------: |
 | Perfect	 | Immediate repetition	    | 6 → 6 → 6...          |
@@ -58,6 +58,7 @@ Modify in src/main.rs:
 
 ```rust
 const RUN_QUANTITY: u64 = 5000; // Numbers processed per run
+```
 
 ## License 📄
 
