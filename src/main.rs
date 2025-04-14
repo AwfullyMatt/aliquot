@@ -196,7 +196,15 @@ fn classify_aliquot(start: u64, max_steps: usize) -> (String, Vec<u64>) {
         }
 
         // Known non-terminating sequences (https://oeis.org/A131884)
-        if cycle_check.contains(&next) || [276, 552, 564, 660, 966, 1074].contains(&next) {
+        if cycle_check.contains(&next)
+            || [
+                276, 306, 396, 552, 564, 660, 696, 780, 828, 888, 966, 996, 1074, 1086, 1098, 1104,
+                1134, 1218, 1302, 1314, 1320, 1338, 1350, 1356, 1392, 1398, 1410, 1464, 1476, 1488,
+                1512, 1560, 1572, 1578, 1590, 1632, 1650, 1662, 1674, 1722, 1734, 1758, 1770, 1806,
+                1836,
+            ]
+            .contains(&next)
+        {
             return ("non-terminating".to_string(), sequence);
         }
 
