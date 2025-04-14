@@ -21,7 +21,7 @@ A multithreaded Rust program that calculates and classifies [Aliquot Sequences](
 git clone git@github.com:yourusername/aliquot-classifier.git
 cd aliquot-classifier
 cargo run --release
-
+```
 
 ## How It Works 🔍
 Results are saved to aliquot.csv in this format:
@@ -32,6 +32,7 @@ Number,Classification,Sequence
 220,amicable,"220,284"
 12,terminating,"12,16,15,9,4,3,1,0"
 etc...
+```
 
 ## Sequence Generation 🪄
 For each number, the program:
