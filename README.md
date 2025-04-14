@@ -8,13 +8,6 @@ A multithreaded Rust program that calculates and classifies [Aliquot Sequences](
 - **Fast classification** using parallel processing
 - **Resume capability** - continues where you left off
 - **CSV output** with full sequence history
-- **Six classifications**:
-  - Perfect (6 → 6 → 6...)
-  - Amicable (220 ↔ 284 ↔ 220...)
-  - Sociable (long cycles)
-  - Aspiring (ends in perfect number)
-  - Terminating (reaches zero)
-  - Non-terminating (no pattern detected)
 
 ## Quick Start 🚀
 ```bash
