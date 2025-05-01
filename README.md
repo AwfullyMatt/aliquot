@@ -11,8 +11,8 @@ A multithreaded Rust program that calculates and classifies [Aliquot Sequences](
 
 ## Quick Start 🚀
 ```bash
-git clone git@github.com:yourusername/aliquot-classifier.git
-cd aliquot-classifier
+git clone git@github.com:yourusername/aliquot.git
+cd aliquot
 cargo run --release
 ```
 
